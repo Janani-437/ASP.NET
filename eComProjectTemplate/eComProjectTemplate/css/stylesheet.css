@@ -1,0 +1,20 @@
+﻿body {
+    background-color: slategray;
+}
+.container {
+    background-color: peachpuff;
+    border: 1px solid brown;
+    width: 90%;
+    margin: auto;
+}
+
+.content {
+    border: 2px solid;
+    height: 400px;
+}
+
+.footer {
+    border: 2px solid;
+    height: 50px;
+}
+

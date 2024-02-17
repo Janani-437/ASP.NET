@@ -1,0 +1,42 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="guestMaster.master.cs" Inherits="eComProjectTemplate.guestMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+     <link href="css/stylesheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+      
+       
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container">
+            <div class="header">
+                <h1>eComm</h1>
+                <header>
+                    <a href="default.aspx">Home</a>
+                    <a href="aboutUs.aspx">About Us</a>
+                    <a href="products.aspx">Products</a>
+                    <a href="contactUs.aspx">Contact Us</a>
+                    <a href="productNew.aspx">New Products</a>
+                    <a href="storedProcedur.aspx">storedProcedur.aspx</a>
+                </header>
+            </div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            
+            
+            <div class="footer">
+                <h2>&copy FlatWorld 2022</h2>
+            </div>
+        </div>
+           
+        
+    </form>
+</body>
+</html>
